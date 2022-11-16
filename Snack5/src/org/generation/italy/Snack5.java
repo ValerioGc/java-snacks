@@ -14,11 +14,11 @@ public class Snack5 {
 				maxNmb = actualNmb;
 			}
 		}		
-		float avgNmb = sumNmb / arrayN.length; 
+		float avgNmb =  ((float)sumNmb) / arrayN.length; 
 		
 		System.out.println("Il valore minimo tra i numeri dell'array è: " + minNmb);
 		System.out.println("Il valore massimo tra i numeri dell'array è: " + maxNmb);
-		System.out.println("La media dei numeri dell'array è: " + avgNmb + "%");
+		System.out.println("La media dei numeri dell'array è: " + avgNmb);
 		System.out.println("La sommatoria dei numeri dell'array è: " + sumNmb);
 	}
 }
