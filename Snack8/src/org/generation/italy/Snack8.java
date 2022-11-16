@@ -8,8 +8,8 @@ public class Snack8 {
 		
 		Random rnd = new Random(128);
 		
-		int maxValue = 0;
-		int minValue = 1000;
+		int maxValue = Integer.MIN_VALUE;
+		int minValue = Integer.MAX_VALUE;
 		int sumMFive = 0;
 		
 		for (int i = 0; i < numbers.length; i++) {

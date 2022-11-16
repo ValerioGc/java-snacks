@@ -5,8 +5,8 @@ public class Snack6 {
 		int[] arr1 = { 70, 39, 18, 30, 51, 59, 1, 47, 67, 87 };
 		int[] arr2 = { 42, 56, 7, 42, 62, 90, 86, 54, 45, 32 };
 		
-		int maxNmb = 0;
-		int minNmb = 100; //  
+		int maxNmb = Integer.MIN_VALUE;
+		int minNmb = Integer.MAX_VALUE; //  
 		int sumNmb1 = 0;
 		int sumNmb2 = 0;
 		

@@ -2,8 +2,8 @@ package org.generation.italy;
 public class Snack5 {
 	public static void main(String[] args) {
 		int[] arrayN = { 70, 39, 18, 30, 51, 59, 1, 47, 67, 87 };
-		int maxNmb = 0;
-		int minNmb = 10; // 
+		int maxNmb = Integer.MIN_VALUE;
+		int minNmb = Integer.MAX_VALUE; // 
 		int sumNmb = 0;
 		for (int i = 0; i < arrayN.length;i++) {
 			int actualNmb = arrayN[i];
