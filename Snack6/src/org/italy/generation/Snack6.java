@@ -1,5 +1,7 @@
 package org.italy.generation;
 
+import java.util.Arrays;
+
 public class Snack6 {
 	public static void main(String[] args) {
 		int[] arr1 = { 70, 39, 18, 30, 51, 59, 1, 47, 67, 87 };
@@ -33,7 +35,7 @@ public class Snack6 {
 		
 		int totalSum = sumNmb1 + sumNmb2;
 		float avgNmb = ((float)totalSum) / (arr1.length + arr2.length); 
-
+		System.out.println(Arrays.toString(arr2));
 		System.out.println("Il valore minimo tra i numeri dell'array è: " + minNmb);
 		System.out.println("Il valore massimo tra i numeri dell'array è: " + maxNmb);
 		
