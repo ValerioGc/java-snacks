@@ -18,8 +18,8 @@ public class Snack8 {
 			if ((Math.abs(numbers[i]) < minValue) || (Math.abs(numbers[i]) < 0)) {
 				minValue = (Math.abs(numbers[i]));
 			}
-			if (numbers[i] > maxValue) {
-				maxValue =(Math.abs(numbers[i]));
+			if ((Math.abs(numbers[i]) > maxValue)) {
+				maxValue = (Math.abs(numbers[i]));
 			}
 			
 			if ((numbers[i] % 5) == 0) {
