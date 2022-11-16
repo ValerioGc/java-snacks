@@ -1,9 +1,4 @@
 package org.generation.italy;
-//creare e stampare una stringa che sia la concatenazione di tutti gli elementi dell'array in ordine
-//creare e stampare una stringa che sia la concatenazione di tutti gli elementi dell'array in ordine inverso
-//trovare e stampare la parola piu' lunga e la sua lunghezza
-//trovare e stampare la parola piu' corta e la sua lunghezza
-
 
 public class Snack7 {
 	public static void main(String[] args) {

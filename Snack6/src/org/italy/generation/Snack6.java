@@ -17,7 +17,6 @@ public class Snack6 {
 			sumNmb1 += actualNmb1;
 			sumNmb2 += actualNmb2;
 			
-//			min
 			if (minNmb > actualNmb1) {
 				minNmb = actualNmb1;
 			}
@@ -25,7 +24,6 @@ public class Snack6 {
 				minNmb = actualNmb2;
 			}
 			
-//			max>
 			if (actualNmb1 > maxNmb) {
 				maxNmb = actualNmb1;
 			} else if (actualNmb2 > maxNmb) {
