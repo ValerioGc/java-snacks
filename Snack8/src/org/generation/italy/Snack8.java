@@ -9,16 +9,26 @@ public class Snack8 {
 		Random rnd = new Random(128);
 		
 		int maxValue = 0;
-		int minValue = 10;
+		int minValue = 1000;
 		int sumMFive = 0;
 		
 		for (int i = 0; i < numbers.length; i++) {
 			numbers[i] = rnd.nextInt(100) - 50; 
-			System.out.println(numbers[i]);
+			
+			if ((Math.abs(numbers[i]) < minValue) || (Math.abs(numbers[i]) < 0)) {
+				minValue = (Math.abs(numbers[i]));
+			}
+			if (numbers[i] > maxValue) {
+				maxValue =(Math.abs(numbers[i]));
+			}
+			
 			if ((numbers[i] % 5) == 0) {
-				sumMFive += (int)numbers[i];
+				sumMFive += numbers[i];
 			}
 		}
-		System.out.println("somma numeri:" + sumMFive);
+		
+		System.out.println("Il numero assoluto più grande è: " + maxValue);
+		System.out.println("Il numero assoluto più piccolo è: " + minValue);
+		System.out.println("La somma dei numeri multipli di 5 è: " + sumMFive);
 	}
 }
