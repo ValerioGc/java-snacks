@@ -9,8 +9,6 @@ public class Snack2 {
 		Random rnd = new Random();
 		int numberC = rnd.nextInt(5);		
 		int numberC2 = rnd.nextInt(5);
-			System.out.println("Nome invitato: " + randNames[numberC] + " " + randSurnames[numberC2]);
-		
-		
+		System.out.println("Nome invitato: " + randNames[numberC] + " " + randSurnames[numberC2]);
 	}
 }
