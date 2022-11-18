@@ -28,14 +28,15 @@ public class Snack6 {
 			
 			if (actualNmb1 > maxNmb) {
 				maxNmb = actualNmb1;
-			} else if (actualNmb2 > maxNmb) {
+			} 
+			if (actualNmb2 > maxNmb) {
 				maxNmb = actualNmb2;
 			}
 		}
 		
 		int totalSum = sumNmb1 + sumNmb2;
 		float avgNmb = ((float)totalSum) / (arr1.length + arr2.length); 
-		System.out.println(Arrays.toString(arr2));
+		System.out.println(Arrays.toString(arr2)); // Stampare Array in stringa
 		System.out.println("Il valore minimo tra i numeri dell'array è: " + minNmb);
 		System.out.println("Il valore massimo tra i numeri dell'array è: " + maxNmb);
 		
