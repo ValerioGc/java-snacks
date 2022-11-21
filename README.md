@@ -1,6 +1,6 @@
 # java-snacks
 
-> Exercises about arrays in Java
+> Exercises about arrays, strings and numbers in Java
 
 <br/>
 
